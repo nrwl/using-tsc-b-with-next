@@ -1,0 +1,21 @@
+{
+  "implicitDependencies": {
+    "package.json": { "dependencies": "*", "devDependencies": "*" },
+    ".eslintrc.json": "*"
+  },
+  "affected": { "defaultBase": "master" },
+  "npmScope": "nnn",
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": { "cacheableOperations": ["build", "lint", "test", "e2e"] }
+    }
+  },
+  "projects": {
+    "nextapp": { "tags": [] },
+    "nextapp-e2e": { "tags": [], "implicitDependencies": ["nextapp"] },
+    "plugin": { "tags": [] },
+    "header": { "tags": [] },
+    "footer": { "tags": [] }
+  }
+}

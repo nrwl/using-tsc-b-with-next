@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0b2051ee-ced5-469f-b4b7-7b7a4f717f07" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/next.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/next.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextapp/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextapp/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextapp/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextapp/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/apps/nextapp/tsconfig.watch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/libs/footer/tsconfig.watch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/libs/header/tsconfig.watch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/footer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/libs/footer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/footer/tsconfig.lib.json" beforeDir="false" afterPath="$PROJECT_DIR$/libs/footer/tsconfig.lib.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/footer/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/libs/footer/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/header/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/libs/header/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/header/src/lib/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/libs/header/src/lib/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/header/tsconfig.lib.json" beforeDir="false" afterPath="$PROJECT_DIR$/libs/header/tsconfig.lib.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/header/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/libs/header/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/plugin/src/lib/plugin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/plugin/src/lib/plugin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/workspace.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/apps/nextapp/pages/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/apps/nextapp/next.config.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/libs/header/tsconfig.lib.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/libs/plugin/src/lib/plugin.ts" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="1rkqB1qd6oms0fyomDIQByLFY1I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist/libs/header" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="pnpm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist/libs/header" />
+      <recent name="$PROJECT_DIR$/libs/plugin" />
+      <recent name="$PROJECT_DIR$/libs/plugin/src" />
+      <recent name="$PROJECT_DIR$/libs/header" />
+      <recent name="$PROJECT_DIR$/tmp/libs/header" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs/header/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="serve" type="NodeJSConfigurationType" application-parameters="serve nextapp" node-parameters="./node_modules/@nrwl/cli/bin/nx.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/.pnpm/@nrwl/next@12.1.0-beta.6_beadab6940de8580963f4193aae24b36/node_modules/@nrwl/next/src/utils/config.js</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/.pnpm/@nrwl/workspace@12.1.0-beta.6_prettier@2.2.1/node_modules/@nrwl/workspace/src/utilities/buildable-libs-utils.js</url>
+          <line>150</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/.pnpm/@nrwl/workspace@12.1.0-beta.6_prettier@2.2.1/node_modules/@nrwl/workspace/src/utilities/buildable-libs-utils.js</url>
+          <line>92</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/.pnpm/@nrwl/next@12.1.0-beta.6_beadab6940de8580963f4193aae24b36/node_modules/@nrwl/next/src/executors/server/server.impl.js</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/dist/libs/plugin/src/lib/plugin.js</url>
+          <line>26</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/dist/libs/plugin/src/lib/plugin.js</url>
+          <line>27</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/dist/libs/plugin/src/lib/plugin.js</url>
+          <line>37</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,169 @@
+{
+  "version": 2,
+  "cli": { "defaultCollection": "@nrwl/next" },
+  "defaultProject": "nextapp",
+  "generators": {
+    "@nrwl/react": { "application": { "babel": true } },
+    "@nrwl/next": { "application": { "style": "css", "linter": "eslint" } }
+  },
+  "projects": {
+    "nextapp": {
+      "root": "apps/nextapp",
+      "sourceRoot": "apps/nextapp",
+      "projectType": "application",
+      "targets": {
+        "buildlibs": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "command": "tsc -b apps/nextapp/tsconfig.json -w"
+          }
+        },
+        "build": {
+          "executor": "@nrwl/next:build",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "root": "apps/nextapp",
+            "outputPath": "dist/apps/nextapp"
+          },
+          "configurations": { "production": {} }
+        },
+        "serve": {
+          "executor": "@nrwl/next:server",
+          "options": { "buildTarget": "nextapp:build", "dev": true },
+          "configurations": {
+            "production": {
+              "buildTarget": "nextapp:build:production",
+              "dev": false
+            }
+          }
+        },
+        "export": {
+          "executor": "@nrwl/next:export",
+          "options": { "buildTarget": "nextapp:build:production" }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/nextapp"],
+          "options": {
+            "jestConfig": "apps/nextapp/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["apps/nextapp/**/*.{ts,tsx,js,jsx}"]
+          }
+        }
+      }
+    },
+    "nextapp-e2e": {
+      "root": "apps/nextapp-e2e",
+      "sourceRoot": "apps/nextapp-e2e/src",
+      "projectType": "application",
+      "targets": {
+        "e2e": {
+          "executor": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "apps/nextapp-e2e/cypress.json",
+            "tsConfig": "apps/nextapp-e2e/tsconfig.e2e.json",
+            "devServerTarget": "nextapp:serve"
+          },
+          "configurations": {
+            "production": { "devServerTarget": "nextapp:serve:production" }
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": { "lintFilePatterns": ["apps/nextapp-e2e/**/*.{js,ts}"] }
+        }
+      }
+    },
+    "plugin": {
+      "root": "libs/plugin",
+      "sourceRoot": "libs/plugin/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": { "lintFilePatterns": ["libs/plugin/**/*.ts"] }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/plugin"],
+          "options": {
+            "jestConfig": "libs/plugin/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "build": {
+          "executor": "@nrwl/node:package",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "outputPath": "dist/libs/plugin",
+            "tsConfig": "libs/plugin/tsconfig.lib.json",
+            "packageJson": "libs/plugin/package.json",
+            "main": "libs/plugin/src/index.ts",
+            "assets": ["libs/plugin/*.md"]
+          }
+        }
+      }
+    },
+    "header": {
+      "root": "libs/header",
+      "sourceRoot": "libs/header/src",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "outputs": ["dist/libs/header"],
+          "options": {
+            "command": "npx tsc -b libs/header/tsconfig.lib.json && cp libs/header/package.json dist/libs/header/"
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/header/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/header"],
+          "options": {
+            "jestConfig": "libs/header/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "footer": {
+      "root": "libs/footer",
+      "sourceRoot": "libs/footer/src",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "outputs": ["dist/libs/footer"],
+          "options": {
+            "command": "npx tsc -b libs/footer/tsconfig.lib.json && cp libs/footer/package.json dist/libs/footer/"
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/footer/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/footer"],
+          "options": {
+            "jestConfig": "libs/footer/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    }
+  }
+}
